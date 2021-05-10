@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Hour5Application</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Ustawienia</string>
+</resources>
