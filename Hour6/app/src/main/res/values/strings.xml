@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Hour6</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="hour6_text_label">Przykład: Pola TextView i EditText</string>
+    <string name="hour6_name_hint">Podaj nazwę</string>
+    <string name="hour6_number_hint">Podaj numer</string>
+    <string name="button_show_skateboarder">Pokaż skaterów</string>
+    <string name="button_show_icon">Pokaż ikonę</string>
+</resources>
