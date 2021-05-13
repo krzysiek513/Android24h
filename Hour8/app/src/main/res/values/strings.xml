@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="app_name">Hour8Application</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Ustawienia</string>
+
+    <string-array name="pie_array">
+        <item>jabłecznik</item>
+        <item>jagodzianka</item>
+        <item>sernik</item>
+        <item>kokosanki</item>
+    </string-array>
+
+    <string name="title_activity_grid_view">GridViewActivity</string>
+
+</resources>
