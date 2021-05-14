@@ -10,7 +10,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Toast;
 
 
-public class AdapterViewFlipperActivity extends Activity {
+public class  AdapterViewFlipperActivity extends Activity {
     AdapterViewFlipper adapterViewFlipper;
     String[] pies;
 
