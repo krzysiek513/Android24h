@@ -1,40 +1,41 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.talkingandroid.hour13application.ActionBarBasicActivity">
+    tools:context=".ActionBarBasicActivity">
     <item
         android:id="@+id/action_help"
         android:title="@string/action_help"
         android:orderInCategory="100"
-        android:showAsAction="never" />
+        app:showAsAction="never" />
     <item
         android:id="@+id/action_settings"
         android:title="@string/action_settings"
         android:orderInCategory="110"
-        android:showAsAction="never" />
+        app:showAsAction="never" />
     <item
         android:id="@+id/action_about"
         android:title="@string/action_about"
         android:orderInCategory="120"
-        android:showAsAction="never" />
+        app:showAsAction="never" />
 
     <item
         android:id="@+id/action_item_1"
         android:orderInCategory="10"
-        android:showAsAction="always"
-        android:title="Akcja1"/>
+        android:title="Akcja1"
+        app:showAsAction="always" />
     <item
         android:id="@+id/action_item_2"
         android:orderInCategory="20"
-        android:showAsAction="always"
-        android:title="Akcja2"/>
+        android:title="Akcja2"
+        app:showAsAction="always" />
     <item
         android:id="@+id/action_item_3"
         android:orderInCategory="30"
-        android:showAsAction="always"
-        android:title="Akcja3"/>
+        android:title="Akcja3"
+        app:showAsAction="always" />
     <item
         android:id="@+id/action_item_4"
         android:orderInCategory="40"
-        android:showAsAction="always"
-        android:title="Akcja4"/>
+        android:title="Akcja4"
+        app:showAsAction="always" />
 </menu>
