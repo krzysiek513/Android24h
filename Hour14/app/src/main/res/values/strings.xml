@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Hour14Application</string>
+
+
+    <string-array name="choices_array">
+        <item>Zapis do katalogu Private</item>
+        <item>Zapis do katalogu External</item>
+        <item>Zapis do katalogu External Public</item>
+    </string-array>
+
+    <string name="action_settings">Ustawienia</string>
+    <string name="title_activity_write_private">WritePrivateActivity</string>
+    <string name="title_activity_write_external">WriteExternalActivity</string>
+    <string name="title_activity_write_external_public">WriteExternalPublicActivity</string>
+
+
+    <string name="write_button">Zapisz plik</string>
+    <string name="display_contents">Tutaj zostanie wyświetlona zawartość pliku</string>
+    <string name="read_button">Odczytaj plik</string>
+    <string name="delete_file">Usuń plik</string>
+    <string name="hint_text">Wpisz dowolny tekst</string>
+</resources>
