@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Hour13Application</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="action_help">Pomoc</string>
+    <string name="action_about">O aplikacji</string>
+
+
+
+    <string-array name="choices_array">
+        <item>Pasek ActionBar</item>
+        <item>Pasek Toolbar</item>
+        <item>Pasek Toolbar z CustomView</item>
+        <item>Panel wysuwany</item>
+    </string-array>
+
+    <string-array name="sliding_drawer_array">
+        <item>Czerwony fragment</item>
+        <item>Zielony fragment</item>
+        <item>Niebieski fragment</item>
+        <item>Żółty fragment</item>
+    </string-array>
+
+    <string name="title_activity_action_bar">ActionBar</string>
+
+
+    <string name="title_activity_tool_bar">Pasek Toolbar</string>
+    <string name="title_activity_tool_bar_custom">Pasek Toolbar z Custom View</string>
+    <string name="title_activity_sample">Przykład</string>
+
+    <string name="title_activity_navigation_drawer">NavigationDrawerActivity</string>
+
+    <string name="drawer_open">Otwórz panel nawigacji</string>
+    <string name="drawer_close">Zamknij panel nawigacji</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">To czarny fragment</string>
+    <string name="red_fragment">To jest CZERWONY fragment</string>
+    <string name="yelloe_fragment">To jest ŹÓŁTY fragment</string>
+    <string name="green_fragment">To jest ZIELONY fragment</string>
+    <string name="blue_fragment">To jest NIEBIESKI fragment</string>
+
+
+</resources>
