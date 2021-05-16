@@ -7,8 +7,8 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 public class ReadWritePreferences extends Activity {
-    public static final String SETTINGS = "com.talkingandroid.hour15application.settings";
-    public static final String FIRST_USE_SETTING = "com.talkingandroid.hour15application.firstUse";
+    public static final String SETTINGS = "pl.studia.hour15.settings";
+    public static final String FIRST_USE_SETTING = "pl.studia.hour15.firstUse";
     TextView textView;
 
     @Override
