@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Obrazy">
+        <CheckBoxPreference
+            android:key="hires"
+            android:title="Obrazy o wysokiej rozdzielczości"
+            android:summary="Wyświetla obrazy o wysokiej rozdzielczości. Czas ładowania może być wydłużony."
+            android:defaultValue="False" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Informacje o ciastach">
+        <SwitchPreference
+            android:key="pie"
+            android:title="Ciasta"
+            android:summary="Lubię ciasta"
+            android:defaultValue="true" />
+
+        <ListPreference
+            android:dependency="pie"
+            android:key="pie_type"
+            android:title="Rodzaj ciasta"
+            android:summary="Ulubiony rodzaj ciasta"
+            android:dialogTitle="Rodzaj ciasta"
+            android:entries="@array/pie_array"
+            android:entryValues="@array/pie_array"
+            android:defaultValue="jabłecznik" />
+
+        <EditTextPreference
+            android:key="more_info"
+            android:title="Więcej informacji"
+            android:summary="Dodatkowe informacje o ciastach"
+            android:defaultValue="" />
+    </PreferenceCategory>
+    <PreferenceScreen
+        android:key="second_preferencescreen"
+        android:title="Druga karta ustawień">
+        <EditTextPreference
+            android:key="extraA"
+            android:title="Więcej danych"
+            android:summary="Kolejne pole EditTextPreference"
+            android:defaultValue="" />
+        <EditTextPreference
+            android:key="ExtraB"
+            android:title="Jeszcze więcej informacji"
+            android:summary="Co jeszcze możemy powiedzieć"
+            android:defaultValue="" />
+    </PreferenceScreen>
+</PreferenceScreen>

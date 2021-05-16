@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Hour15Application</string>
+
+    <string name="action_settings">Ustawienia</string>
+
+    <string-array name="choices_array">
+        <item>Zapisywanie i odczytywanie SharedPreference</item>
+        <item>PreferencesFragment</item>
+        <item>PreferencesActivity</item>
+    </string-array>
+    <string name="title_activity_read_write_preferences">ReadWritePreferences</string>
+
+    <string name="first_time_message">Dziękujemy za wypróbowanie naszej aplikacji!</string>
+    <string name="return_user_message">Witamy ponownie!</string>
+
+
+    <string-array name="pie_array">
+        <item>jabłecznik</item>
+        <item>jagodzianka</item>
+        <item>sernik</item>
+        <item>kokosanki</item>
+    </string-array>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+
+
+</resources>
