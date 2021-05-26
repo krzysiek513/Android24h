@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Hour18Application</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="title_activity_calendars">CalendarsActivity</string>
+
+    <string-array name="choices_array">
+        <item>Wyświetl listę kalendarzy</item>
+        <item>Dodaj zdarzenie</item>
+    </string-array>
+    <string name="title_activity_events">EventsActivity</string>
+
+</resources>
