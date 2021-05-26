@@ -20,7 +20,7 @@ public class CalendarsActivity extends Activity {
             Calendars.ACCOUNT_NAME,
             CalendarContract.Calendars.CALENDAR_DISPLAY_NAME,
     };
-    public static final String CALENDAR_ID = "com.talkingandroid.hour18application.ID";
+    public static final String CALENDAR_ID = "pl.studia.hour18.ID";
     ListView listView;
     SimpleCursorAdapter adapter;
 
