@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Hour21Application</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Ustawienia</string>
+
+
+    <string-array name="choices_array">
+        <item>Proste powiadomienie</item>
+        <item>Powiadomienie z powiązaną akcją</item>
+        <item>Powiadomienie z aktualizacją</item>
+        <item>Powiadomienie z RemoteView</item>
+    </string-array>
+    
+    <string name="title_activity_simple_notificaton">SimpleNotificatonActivity</string>
+    <string name="title_activity_destination">DestinationActivity</string>
+    <string name="notification_text">To jest widok TextView, zdefiniowany w pliku notification_view.xml i używany do pokazania zdalnego widoku.</string>
+
+</resources>
