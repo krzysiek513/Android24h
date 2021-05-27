@@ -13,9 +13,13 @@ public class FlickrPhotoContentProvider extends ContentProvider {
     FlickrPhotoDbAdapter mFlickrPhotoDbAdapter;
     private static final UriMatcher sUriMatcher = new UriMatcher(UriMatcher.NO_MATCH);
     static {
+//        sUriMatcher.addURI("pl.studia.hour20.provider", "photo", 1);
+//        sUriMatcher.addURI("pl.studia.hour20.provider/#", "photo", 2);
         sUriMatcher.addURI("com.talkingandroid.hour20application.provider", "photo", 1);
         sUriMatcher.addURI("com.talkingandroid.hour20application.provider/#", "photo", 2);
     }
+
+//    public static final Uri CONTENT_URI = Uri.parse("content://pl.studia.hour20.provider/photo");
 
     public static final Uri CONTENT_URI = Uri.parse("content://com.talkingandroid.hour20application.provider/photo");
 
@@ -35,9 +39,9 @@ public class FlickrPhotoContentProvider extends ContentProvider {
         int uriType = sUriMatcher.match(uri);
         switch (uriType) {
             case 1:
-                return ContentResolver.CURSOR_DIR_BASE_TYPE + "/com.talkingandroid.hour20application.FlickrPhoto";
+                return ContentResolver.CURSOR_DIR_BASE_TYPE + "/pl.studia.hour20.FlickrPhoto";
             case 2:
-                return ContentResolver.CURSOR_ITEM_BASE_TYPE + "/com.talkingandroid.hour20application.FlickrPhoto";
+                return ContentResolver.CURSOR_ITEM_BASE_TYPE + "/pl.studia.hour20.FlickrPhoto";
             default:
                 return null;
         }

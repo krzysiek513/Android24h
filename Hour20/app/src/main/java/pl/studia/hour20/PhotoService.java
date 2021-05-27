@@ -18,10 +18,13 @@ import java.util.ArrayList;
 
 
 public class PhotoService extends IntentService {
+//    public static final String ACTION_SUCCESS = "pl.studia.hour20.action.SUCCEED";
+//    public static final String ACTION_FAIL = "pl.studia.hour20.action.FAIL";
+//    public static final String EXTRA_MESSAGE = "pl.studia.hour20.extra.MESSAGE";
     public static final String ACTION_SUCCESS = "com.talkingandroid.hour20application.action.SUCCEED";
     public static final String ACTION_FAIL = "com.talkingandroid.hour20application.action.FAIL";
     public static final String EXTRA_MESSAGE = "com.talkingandroid.hour20application.extra.MESSAGE";
-    public final static String API_KEY ="---ADD YOUR KEY HERE---";
+    public final static String API_KEY ="56aa0df2e50b64ee8a31d627b87238d3";
     public final static String NUM_PHOTOS ="12";
 
     public PhotoService() {
